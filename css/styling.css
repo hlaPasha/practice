@@ -1,0 +1,33 @@
+#headArea {
+    width: 900px;
+    height: 75px;
+}
+
+#sideArea {
+    width: 300px;
+    float: left;
+   height: 500px;
+    padding: 20px;
+    color:bisque;
+    background-color:khaki
+}
+
+#textArea {
+    width: 600px;
+    min-height: 500px;
+    float: left;
+}
+
+#footArea {
+    width: 900px;
+    height: 40px;
+    background-color: aqua;
+}
+.clear
+{
+    clear: both;
+}
+body
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
