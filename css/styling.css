@@ -1,33 +1,74 @@
 #headArea {
-    width: 900px;
+    width: 100%;
     height: 75px;
+    background-color: rgb(160, 160, 102);
+    text-align:center;
+    font-size:3em;
+    padding-top:12px
+font-weight bold;
+font-family: cursive;
 }
 
 #sideArea {
-    width: 300px;
+    width:10%;
     float: left;
-   height: 500px;
+   height:650px;
+     left:0px;
     padding: 20px;
     color:bisque;
-    background-color:khaki
+    background-color:rgb(160, 160, 102)
 }
 
 #textArea {
-    width: 600px;
-    min-height: 500px;
-    float: left;
+    width: 90%;
+    height: 100px;
+   
 }
 
 #footArea {
-    width: 900px;
-    height: 40px;
-    background-color: aqua;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(160, 160, 102);
+   position: absolute;
+   top:730px;
+   left:0
 }
+p#footer
+{
+    text-align:center;
+    color:bisque;
+    margin-top: 32px;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+
 .clear
 {
     clear: both;
 }
 body
 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Courier New', Courier, monospace
+}
+/*------------------------------------ STYLING the butoon------------------------------------------*/
+
+.button {
+    background-color:transparent;
+   color:hover #8b098d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+ 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+a
+{
+    color: bisque;
+    text-decoration: none;
+    margin: 20px;
+    padding: 30px;
+    font-weight: 2em;
+	font-family:cursive;
 }
